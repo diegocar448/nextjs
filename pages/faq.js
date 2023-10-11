@@ -1,4 +1,5 @@
 //import { useEffect, useState } from 'react';
+import Head from 'next/head'
 import Link from '../components/Link';
 
 // SSG - Static Site Generation
@@ -55,6 +56,9 @@ export default function FAQPage({faq}){
 
     return (
         <div>
+            <Head>
+                <title>FAQ - Cases Campanha</title>
+            </Head>
             <h1>Cases - Pagina de Perguntas FAQ</h1>
             <Link href="/">Ir para Home</Link>
             <ul>
