@@ -1,4 +1,5 @@
 //import { useEffect, useState } from 'react';
+import PageTitle from '../components/PageTitle';
 import Head from 'next/head'
 import Link from '../components/Link';
 
@@ -56,9 +57,7 @@ export default function FAQPage({faq}){
 
     return (
         <div>
-            <Head>
-                <title>FAQ - Cases Campanha</title>
-            </Head>
+            <PageTitle>FAQ - Cases Campanha</PageTitle>
             <h1>Cases - Pagina de Perguntas FAQ</h1>
             <Link href="/">Ir para Home</Link>
             <ul>

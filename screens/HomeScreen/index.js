@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import PageTitle from '../../components/PageTitle';
 import Footer from '../../components/patterns/Footer'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
@@ -96,10 +97,8 @@ function SideImage() {
 
 export default function HomeScreen() {
   return (
-    <Box>
-      <Head>
-        <title>Home - Cases Campanha</title>
-      </Head>
+    <Box>      
+      <PageTitle>Home - Campanha</PageTitle>
       <Box
         as="main"
         styleSheet={{
